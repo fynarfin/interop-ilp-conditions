@@ -1,24 +1,10 @@
 package com.ilp.conditions.impl;
 
 import com.ilp.conditions.models.pdp.*;
-import org.codehaus.jackson.JsonGenerationException;
-import org.codehaus.jackson.map.JsonMappingException;
-import org.codehaus.jackson.map.ObjectMapper;
-import org.codehaus.jackson.map.SerializationConfig;
-import org.interledger.codecs.CodecContext;
-import org.interledger.codecs.CodecContextFactory;
-import org.junit.Ignore;
 import org.junit.Test;
-
-import java.io.File;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.ObjectOutputStream;
 import java.util.ArrayList;
-import java.util.Base64;
 import java.util.List;
 import java.util.logging.Logger;
-
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
 
