@@ -64,3 +64,12 @@ logs/
 MetricsTest/
 !/local-maven-repo/org/interledger/java-ilp-core/0.6.1-SNAPSHOT/
 !/local-maven-repo/org/interledger/java-ilp-core/0.6.1-SNAPSHOT/java-ilp-core-0.6.1-SNAPSHOT.jar
+
+target/
+HELP.md
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
